@@ -134,7 +134,7 @@ abstract class ElectroApi {
 
     public function launch() {
         $this->onInvalidRequestMethod();
-        $this->onApiKeyCheck();
+//        $this->onApiKeyCheck();
         $this->onMaintenanceModeCheck();
         $this->onSetDefaultTimeZone();
         $this->onSetDefaultHeaders();
